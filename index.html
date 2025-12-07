@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>金田 匠 | Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Takkunlego0916のプロフィール。モジュール設計、Webユーティリティ、UI/UXに情熱を注いでいます。">
+  <meta name="theme-color" content="#111318">
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Takkunlego0916 | Profile">
+  <meta property="og:description" content="モジュール設計と遊び心のあるWebユーティリティを作っています。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://contact.takkunlego0916.f5.si/">
+  <meta property="og:image" content="https://contact.takkunlego0916.f5.si/assets/img/avatar.jpg">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="preload" href="assets/css/styles.css" as="style">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">コンテンツへ移動</a>
+
+  <header class="site-header">
+    <div class="brand">
+      <span class="logo" aria-hidden="true">
+        <!-- Minimal SVG mark -->
+        <svg width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Logo">
+          <circle cx="12" cy="12" r="10" fill="currentColor" opacity="0.15"/>
+          <path d="M6 12h12M12 6v12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span class="brand-text">Takkunlego0916</span>
+    </div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#works">Works</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="テーマ切替">🌓</button>
+  </header>
+
+  <main id="main">
+    <section class="hero card">
+      <div class="hero-media">
+        <!-- 画像が無ければSVGプレースホルダ -->
+        <img src="assets/img/avatar.jpg" alt=Takkunlego0816の写真" onerror="this.outerHTML=`<svg class='avatar' viewBox='0 0 96 96' aria-label='Avatar placeholder'><circle cx='48' cy='48' r='46' fill='currentColor' opacity='0.12'/><text x='50%' y='55%' text-anchor='middle' fill='currentColor' font-size='32'>TakkunMC</text></svg>`">
+      </div>
+      <div class="hero-content">
+        <h1>Takkunlego0916</h1>
+        <p class="tagline">モジュール設計 × 遊び心。実用的で楽しいWebユーティリティを作る人。</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#contact">連絡する</a>
+          <a class="btn" href="#works">作品を見る</a>
+        </div>
+        <ul class="socials">
+          <li><a class="icon-btn" href="https://github.com/takkunlego0916" target="_blank" rel="noopener">
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.58v-2.18c-3.34.73-4.04-1.6-4.04-1.6-.54-1.37-1.33-1.74-1.33-1.74-1.09-.75.08-.74.08-.74 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.48.99.11-.78.42-1.3.77-1.6-2.66-.3-5.46-1.33-5.46-5.94 0-1.31.47-2.38 1.24-3.22-.13-.31-.54-1.56.12-3.25 0 0 1.01-.32 3.31 1.23a11.5 11.5 0 0 1 6.02 0c2.3-1.55 3.31-1.23 3.31-1.23.66 1.69.25 2.94.12 3.25.77.84 1.24 1.91 1.24 3.22 0 4.62-2.8 5.63-5.47 5.93.43.37.82 1.1.82 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
+            </span>
+            <span class="label">GitHub</span>
+          </a></li>
+          <li><a class="icon-btn" href="mailto:contact@takkunlego0916.f5.si">
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm-1.4 3-6.6 5L5.4 7h13.2zM4 18V8l8 6 8-6v10H4z"/></svg>
+            </span>
+            <span class="label">Email</span>
+          </a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>兵庫県在住のフロントエンド志向エンジニア。モジュール構成、クリーンなファイル設計、相対パス運用で静的サイトをスムーズに展開します。UIの一貫性と遊び心の両立が好きです。</p>
+      <ul class="chips">
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>UI/UX</li>
+        <li>Responsive</li>
+        <li>Dark Mode</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <div class="grid two">
+        <div>
+          <h3>Frontend</h3>
+          <ul class="list">
+            <li><strong>Framework:</strong> Vanilla JS志向（必要に応じて導入）</li>
+            <li><strong>Design:</strong> カードUI、アイコン、アクセシビリティ</li>
+            <li><strong>Effects:</strong> アニメーション、マイクロインタラクション</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Tooling</h3>
+          <ul class="list">
+            <li><strong>Structure:</strong> モジュール設計、相対パス、静的ホスティング</li>
+            <li><strong>Quality:</strong> エラーハンドリング、コピーUI、状態表示</li>
+            <li><strong>Games:</strong> タイピングゲーム（日英）</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="works" class="card">
+      <h2>Works</h2>
+      <div class="grid two">
+        <article class="work">
+          <h3>Utility Portal</h3>
+          <p>開発者向け／日常向けのユーティリティをまとめたポータル。統一UIとモジュール構成で拡張容易。</p>
+          <ul class="list">
+            <li><strong>Features:</strong> Translate, Server Checker, Skin Searcher, Random Explorer</li>
+            <li><strong>Playful:</strong> ミニゲーム、タイピング、視覚エフェクト</li>
+          </ul>
+          <a class="btn small" href="#" aria-disabled="true">近日公開</a>
+        </article>
+        <article class="work">
+          <h3>Typing Games</h3>
+          <p>日本語／英語対応のタイピングゲーム。入力処理とフィードバックを重視。</p>
+          <a class="btn small" href="#" aria-disabled="true">近日公開</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>小さなユーティリティからUIの磨き込みまで、お気軽にご相談ください。</p>
+      <div class="contact-box">
+        <a class="btn primary" href="mailto:contact@takkunlego0916.f5.si?subject=%E3%81%94%E7%9B%B8%E8%AB%87&body=%E4%BB%A3%E5%AE%9A%E6%96%87%E2%80%94%E3%81%8A%E4%BB%95%E4%BA%8B%E3%81%AE%E5%86%85%E5%AE%B9%E3%82%92%E6%95%B4%E7%90%86%E3%81%97%E3%81%A6%E3%81%94%E9%80%81%E4%BF%A1%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82">メールを送る</a>
+        <a class="btn" href="https://github.com/takkunlego0916" target="_blank" rel="noopener">GitHubを見る</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© <span id="year"></span> Takkunlego0916. All rights reserved.</small>
+  </footer>
+
+  <script src="assets/js/script.js" defer></script>
+</body>
+</html>
